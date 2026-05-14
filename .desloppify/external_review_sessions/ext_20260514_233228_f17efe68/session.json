@@ -1,0 +1,20 @@
+{
+  "session_id": "ext_20260514_233228_f17efe68",
+  "status": "submitted",
+  "runner": "claude",
+  "created_at": "2026-05-14T23:32:28+00:00",
+  "expires_at": "2026-05-15T23:32:28+00:00",
+  "ttl_hours": 24,
+  "token": "2556e14b71b02ee697277ecb4c17b909",
+  "attest": "I validated this review was completed without awareness of overall score and is unbiased.",
+  "packet_path": "/app/.desloppify/review_packets/holistic_packet_20260514_233228.json",
+  "blind_packet_path": "/app/.desloppify/review_packet_blind.json",
+  "packet_sha256": "dbf3d266a844c7b6eab218f0b2a95ac22ddd79ba44b3fe5fa5126b3a2bbc793b",
+  "template_path": "/app/.desloppify/external_review_sessions/ext_20260514_233228_f17efe68/review_result.template.json",
+  "launch_prompt_path": "/app/.desloppify/external_review_sessions/ext_20260514_233228_f17efe68/claude_launch_prompt.md",
+  "instructions_path": "/app/.desloppify/external_review_sessions/ext_20260514_233228_f17efe68/reviewer_instructions.md",
+  "expected_output_path": "/app/.desloppify/external_review_sessions/ext_20260514_233228_f17efe68/review_result.json",
+  "submitted_at": "2026-05-14T23:33:51+00:00",
+  "submitted_input_file": "/app/.desloppify/external_review_sessions/ext_20260514_233228_f17efe68/review_result.json",
+  "submitted_canonical_file": "/app/.desloppify/external_review_sessions/ext_20260514_233228_f17efe68/canonical_import_20260514_233351.json"
+}

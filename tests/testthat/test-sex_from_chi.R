@@ -41,8 +41,8 @@ test_that("sex_from_chi works with custom values", {
         "0113201234",
         NA
       ),
-      male_value = "M",
-      female_value = "F"
+      male_value = "Male",
+      female_value = "Female"
     )
   )
 
@@ -55,16 +55,16 @@ test_that("sex_from_chi works with custom values", {
           "0113201234",
           NA
         ),
-        male_value = "M",
-        female_value = "F"
+        male_value = "Male",
+        female_value = "Female"
       )
     ),
-    c("M", "F", NA, NA)
+    c("Male", "Female", NA, NA)
   )
 
   expect_error(
     sex_from_chi("0101011237",
-      male_value = "M"
+      male_value = "Male"
     ),
     "`male_value` and `female_value` must be of the same class\\..*?$"
   )
